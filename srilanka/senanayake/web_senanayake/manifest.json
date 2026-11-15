@@ -1,0 +1,42 @@
+{
+ "bounds_leaflet": [
+  [
+   7.15,
+   81.38
+  ],
+  [
+   7.42,
+   81.62
+  ]
+ ],
+ "bbox_wsen": [
+  81.38,
+  7.15,
+  81.62,
+  7.42
+ ],
+ "nisar": [
+  "jun20",
+  "jul02",
+  "jul14",
+  "jul26",
+  "aug19",
+  "aug31",
+  "sep12",
+  "sep24",
+  "oct06",
+  "oct18"
+ ],
+ "sentinel1": [
+  "jun25",
+  "jul07",
+  "jul19",
+  "jul31",
+  "aug24",
+  "sep05",
+  "sep17",
+  "sep29",
+  "oct11"
+ ],
+ "colour": "NISAR R=HH G=HV B=HH-HV dB (NASA SVS 5661); S1 R=VV G=VH B=VV-VH dB; stretch fixed from first date; medians aligned on common valid area"
+}

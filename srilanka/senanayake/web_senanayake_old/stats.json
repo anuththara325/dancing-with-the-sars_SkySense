@@ -1,0 +1,13 @@
+{
+ "box": [
+  81.38,
+  7.15,
+  81.62,
+  7.42
+ ],
+ "common_valid_km2": 600.1,
+ "common_valid_pct": 75.9,
+ "outline_km2_25jun": 42.3,
+ "pixel_km2": 0.00076,
+ "dark_threshold_db": -22
+}

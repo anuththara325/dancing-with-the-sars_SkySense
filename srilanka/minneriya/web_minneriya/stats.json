@@ -1,0 +1,138 @@
+{
+ "site": "Minneriya",
+ "bbox_wsen": [
+  80.82,
+  7.95,
+  81.02,
+  8.1
+ ],
+ "track": 84,
+ "frame": 6,
+ "crid": "P05023 (provisional)",
+ "dark_threshold_hv_db": -22,
+ "pixel_km2": 0.000762,
+ "common_valid_pct": 78.5,
+ "note": "tank = dark (HV<-22) on >=9 of 10 dates plus 20-px margin; field water = dark outside it; stats on common valid area",
+ "dates": [
+  {
+   "tag": "jun20",
+   "date": "2026-06-20",
+   "cycle": 23,
+   "tank_water_km2": 19.81,
+   "field_water_km2": 11.59,
+   "hh_fields_median_db": -7.18,
+   "hh_fields_std_db": 2.44,
+   "hv_fields_median_db": -12.43,
+   "hv_fields_std_db": 3.67,
+   "stable_ref_hv_median_db": -11.49
+  },
+  {
+   "tag": "jul02",
+   "date": "2026-07-02",
+   "cycle": 24,
+   "tank_water_km2": 19.25,
+   "field_water_km2": 7.65,
+   "hh_fields_median_db": -7.23,
+   "hh_fields_std_db": 2.23,
+   "hv_fields_median_db": -12.49,
+   "hv_fields_std_db": 3.56,
+   "stable_ref_hv_median_db": -11.5
+  },
+  {
+   "tag": "jul14",
+   "date": "2026-07-14",
+   "cycle": 25,
+   "tank_water_km2": 18.03,
+   "field_water_km2": 5.84,
+   "hh_fields_median_db": -7.21,
+   "hh_fields_std_db": 1.99,
+   "hv_fields_median_db": -12.48,
+   "hv_fields_std_db": 3.5,
+   "stable_ref_hv_median_db": -11.49
+  },
+  {
+   "tag": "jul26",
+   "date": "2026-07-26",
+   "cycle": 26,
+   "tank_water_km2": 17.73,
+   "field_water_km2": 2.82,
+   "hh_fields_median_db": -7.2,
+   "hh_fields_std_db": 1.69,
+   "hv_fields_median_db": -12.48,
+   "hv_fields_std_db": 3.34,
+   "stable_ref_hv_median_db": -11.47
+  },
+  {
+   "tag": "aug19",
+   "date": "2026-08-19",
+   "cycle": 28,
+   "tank_water_km2": 15.75,
+   "field_water_km2": 0.14,
+   "hh_fields_median_db": -6.79,
+   "hh_fields_std_db": 1.57,
+   "hv_fields_median_db": -12.25,
+   "hv_fields_std_db": 2.92,
+   "stable_ref_hv_median_db": -11.26
+  },
+  {
+   "tag": "aug31",
+   "date": "2026-08-31",
+   "cycle": 29,
+   "tank_water_km2": 16.28,
+   "field_water_km2": 0.08,
+   "hh_fields_median_db": -6.84,
+   "hh_fields_std_db": 1.73,
+   "hv_fields_median_db": -12.3,
+   "hv_fields_std_db": 2.68,
+   "stable_ref_hv_median_db": -11.31
+  },
+  {
+   "tag": "sep12",
+   "date": "2026-09-12",
+   "cycle": 30,
+   "tank_water_km2": 17.38,
+   "field_water_km2": 0.47,
+   "hh_fields_median_db": -6.99,
+   "hh_fields_std_db": 2.19,
+   "hv_fields_median_db": -12.3,
+   "hv_fields_std_db": 3.04,
+   "stable_ref_hv_median_db": -11.31
+  },
+  {
+   "tag": "sep24",
+   "date": "2026-09-24",
+   "cycle": 31,
+   "tank_water_km2": 13.13,
+   "field_water_km2": 0.34,
+   "hh_fields_median_db": -6.57,
+   "hh_fields_std_db": 1.99,
+   "hv_fields_median_db": -12.06,
+   "hv_fields_std_db": 3.05,
+   "stable_ref_hv_median_db": -11.08
+  },
+  {
+   "tag": "oct06",
+   "date": "2026-10-06",
+   "cycle": 32,
+   "tank_water_km2": 15.01,
+   "field_water_km2": 0.05,
+   "hh_fields_median_db": -6.48,
+   "hh_fields_std_db": 1.79,
+   "hv_fields_median_db": -11.89,
+   "hv_fields_std_db": 2.72,
+   "stable_ref_hv_median_db": -11.13
+  },
+  {
+   "tag": "oct18",
+   "date": "2026-10-18",
+   "cycle": 33,
+   "tank_water_km2": 12.25,
+   "field_water_km2": 0.14,
+   "hh_fields_median_db": -5.95,
+   "hh_fields_std_db": 1.86,
+   "hv_fields_median_db": -11.4,
+   "hv_fields_std_db": 2.44,
+   "stable_ref_hv_median_db": -10.9
+  }
+ ]
+}
