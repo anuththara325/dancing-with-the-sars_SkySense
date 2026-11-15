@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="icon" type="image/png" href="img/logo.png">
+<title>SkySense · Dancing with the SARs · NISAR radar surface change</title>
+<meta name="description" content="Interactive NISAR L-band radar stories of floods, water and human activity in Thailand, India, Nepal and Sri Lanka, 2026. NASA Space Apps Challenge, Colombo.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="#/"><img src="img/logo.png" alt="" width="36" height="36">SkySense</a>
+  <nav><a href="#/">Home</a><a href="#/radar">New to radar?</a><a href="#stories">Stories</a><a href="#colours">Colours</a><a href="#/polar">Polarizations</a><a href="#/moisture">Rain test</a><a href="#next">What next</a></nav>
+</header>
+<main id="app"></main>
+<noscript><div style="padding:100px 24px;max-width:860px;margin:auto"><h1>SkySense: Dancing with the SARs</h1><p>An interactive app of NASA-ISRO NISAR L-band radar stories for the NASA Space Apps Challenge, Colombo 2026. This page needs JavaScript to show the interactive maps, sliders and charts. This is what it contains.</p><ul><li><b>Thailand (Thailand)</b>: NISAR L-band shows open-water-like surface rising from under 1% of the study box before mid-September to 17% on 30 Sep, and still 14% on 12 Oct.</li><li><b>Assam (India)</b>: NISAR shows 45 km² of the box darker than the 10 Jul baseline on 22 Jul, after 240 mm of rain in 12 days. Sentinel-1 shows the darkening still at 61–65 km² on 27 Jul and 8 Aug, then draining by 20 Aug.</li><li><b>Devighat (Nepal)</b>: After 26 Aug, both NISAR and Sentinel-1 show a lasting darkening along the Trishuli corridor. It matches a wider sediment channel and stripped banks in Sentinel-2 on 27 Aug.</li><li><b>Matara (Sri Lanka)</b>: Dark, water-like land area averages 1.6 km² through 12 Sep, then 4.0 km² on 18 Oct, after the wettest 3-day spell of the season. About 2.3 km² is newly dark.</li><li><b>Minneriya (Sri Lanka)</b>: Descriptive result. Dark (water-like) area in the field zone falls from 11.6 km² on 20 Jun to about 0.1 km² from 19 Aug, consistent with the end of Yala water. Dark area in the tank zone drifts from 19.8 to 12.3 km² by 18 Oct, but it does not follow reservoir storage.</li><li><b>Senanayake (Sri Lanka)</b>: NISAR dark share inside the June outline fell from 34.8% (20 Jun) to 22.9% (18 Oct). The Irrigation Department's storage series fell from 28.4% to 16.3% of active storage over the same ten dates (r = 0.84). Consistent with a lower reservoir. It is not a level or volume measurement.</li><li><b>Colombo Port (Sri Lanka)</b>: About 28–44% of terminal pixels shift by more than 3 dB between NISAR passes, in both HH and HV, while a dense city block next to them stays at about 1%.</li></ul><p>Rain test: NISAR signal compared with satellite rainfall and AMSR2 soil moisture at Nawalapitiya, Ampara and Ratnapura (Sri Lanka). Polarizations page: what HH and HV show. Every story lists its data, polarization used, limits and why the change may happen. Data: NISAR L2 GCOV (provisional, NASA-ISRO via ASF DAAC), Sentinel-1 and Sentinel-2 (Copernicus), NASA GPM IMERG, NASA POWER. Code and README are in this GitHub repository. Analysis and drafting assisted by Claude (Anthropic).</p></div></noscript>
+<script src="data.js"></script>
+<script src="data_moisture.js"></script>
+<script src="data_ampara.js"></script>
+<script src="data_ratnapura.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
